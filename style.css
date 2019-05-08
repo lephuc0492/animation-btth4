@@ -1,0 +1,56 @@
+*
+{
+	box-sizing: border-box;
+
+}
+body
+{
+	margin: 0;
+}
+
+img.teach
+{
+
+position: relative;
+margin-left: 0;
+	animation: teach 3s ease infinite;
+}
+img.code
+
+{
+	animation: code 5s ease infinite;
+position: relative;
+right: 180px;
+}
+img.learning
+{
+
+position: relative;
+right: 412px;
+}
+img
+{
+
+}
+@keyframes teach
+{
+	from
+	{
+		
+	}
+	to 
+	{
+		z-index: 30;
+	}
+}
+@keyframes code
+{
+	from
+	{
+		
+	}
+	to 
+	{
+		z-index: 20;
+	}
+}
